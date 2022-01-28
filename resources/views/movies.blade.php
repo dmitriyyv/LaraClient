@@ -18,7 +18,7 @@
             <div class="row py-5">
                 <div class="col-md-3">
                     <div class="position-sticky" style="top: 2rem;">
-                        <form action="<?php echo get_post_type_archive_link( 'movies' ); ?>" method="get">
+                        <form action="" method="get">
                             <div class="mb-3">
                                 <label for="filter_search" class="form-label">Sort by</label>
                                 <select name="sorting" class="form-select form-select-sm"
@@ -31,11 +31,11 @@
                                 <button type="submit" class="btn btn-primary mt-3">Sort</button>
                             </div>
                         </form>
-                        <form action="<?php echo get_post_type_archive_link( 'movies' ); ?>" method="get">
+                        <form action="" method="get">
                             <div class="mb-3">
                                 <label for="filter_search" class="form-label">Search</label>
                                 <input type="text" name="filter_search" class="form-control" id="filter_search"
-                                       value="<?php echo $_GET[ 'filter_search' ]; ?>">
+                                       value="">
                             </div>
                             <div class="mb-3">
                                 <label for="filter_relevance" class="form-label">IMDb Rating </label>
